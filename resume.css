@@ -66,10 +66,10 @@ a {
 }
 
 .profile {
-    background: #3d3e42;
+    background: #eee;
     width: 35%;
     float: left;
-    color: #fff;
+
 }
 .row_hb{
   width:100%;
@@ -158,19 +158,12 @@ a {
 
 
 .profile .contact-info {
-  margin-top: 100px;
-  font-weight: 300;
+  margin-top:20px;
+  display: inline-block;
+  width: 100%;
+
 }
-@media (max-width: 1200px) {
-  .profile .contact-info {
-    margin-top: 70px;
-  }
-}
-@media (max-width: 450px) {
-  .profile .contact-info {
-    margin-top: 50px;
-  }
-}
+
 .profile .list-titles {
   float: left;
   text-align: left;
@@ -182,25 +175,17 @@ a {
   float: left;
   width: 60%;
   text-align: left;
-  font-weight: 300;
+
 }
 .profile .contact-presentation {
   text-align: left;
-  font-weight: 300;
-  margin-top: 100px;
-  margin-bottom: 100px;
+
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
-@media (max-width: 1200px) {
-  .profile .contact-presentation {
-    margin-top: 70px;
-    margin-bottom: 70px;
-  }
-}
+
 @media (max-width: 850px) {
-  .profile .contact-presentation {
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
+ 
   .resume-wrapper{
         flex-wrap: wrap;
   }
@@ -236,8 +221,8 @@ a {
   
   position: relative;
   color: #333;
-  font-weight: 300;
-  min-height: 100%;
+
+    min-height: 100%;
   min-height: 100vh;
 }
 @media (max-width: 850px) {
@@ -289,20 +274,17 @@ a {
 }
 @media (max-width: 850px) {
   .section-padding {
-    padding: 25px;
+    padding:15px;
+    padding-top: 35px;
   }
 }
-@media (max-width: 450px) {
-  .section-padding {
-    padding: 15px;
-  }
-}
+
 
 .section-wrapper {
   width: 50%;
   float: left;
   text-align: left;  
-  font-weight: 300;
+
   margin-bottom: 20px;
 }
 @media (max-width: 450px) {
