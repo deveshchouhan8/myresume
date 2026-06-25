@@ -67,7 +67,7 @@ a {
 
 .profile {
     background: #3d3e42;
-    width: 40%;
+    width: 35%;
     float: left;
     color: #fff;
 }
@@ -88,15 +88,30 @@ a {
 .mar_t_25{
   margin-top: 25px;
 }
+.picture-resume-wrapper {
+    width: 100%;
+    display: inline-flex;
+    gap: 15px;
+    align-items: center;
+}
+.picture-resume{
+  width: 40%;
+}
+.name-wrapper{
+   width: 60%;
+}
+.picture-resume img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px solid var(--prime);
+}
 @media (max-width: 850px) {
   .profile {
     width: 100%;
   }
 }
-.profile .name-wrapper {
-  float: left;
-  width: 60%;
-}
+
 .fnt_size_20{
   font-size: 20px;
 }
@@ -106,8 +121,7 @@ a {
   font-family: "Varela Round", sans-serif;
   /* color: #4a4e51; */
   text-transform: uppercase;
-  line-height: 1em;
-  padding-top: 40px;
+  line-height: normal;
 }
 @media (max-width: 1200px) {
   .profile h1 {
@@ -118,35 +132,19 @@ a {
   .profile h1 {
     font-size: 1.8em;
     padding-top: 20px;
+    text-align: center;
   }
 }
 .profile li {
   margin-bottom: 10px;
 }
-.profile .picture-resume-wrapper {
-  width: 40%;
-  display: block;
-  float: left;
-}
-@media (max-width: 1200px) {
-  .profile .picture-resume-wrapper {
-    width: 100%;
-  }
-}
+
+
 
 .projectdtl li{
   margin-bottom: 5px;
 }
-.profile .picture-resume {
-  /* width: 220px;
-  height: 220px; */
-  background-size: cover;
-  border-radius: 50%;
-  margin-right: 0px;
-  display: table;
-  position: relative;
-  vertical-align: middle;
-}
+
 .company-description ul{
   display: inline-block;
   margin-top: 10px;
@@ -155,48 +153,10 @@ a {
   list-style: disc;
   padding-left: 30px;
 }
-.profile .picture-resume span {
-  display: table-cell;
-  vertical-align: middle;
-  position: relative;
-  margin: 0 auto;
-  z-index: 10;
-  text-align: center;
-}
-.profile .picture-resume img {
-    border-radius: 50%;
-    width: 150px;
-    border: 7px solid  var(--prime);
-}
-@media (max-width: 1500px) {
-  /* .profile .picture-resume img {
-    width: 80px;
-  } */
-}
-@media (max-width: 1200px) {
-  .profile .picture-resume img {
-    width: 150px;
-    height: 120px;
-  }
-}
-@media (max-width: 1500px) {
-  .profile .picture-resume {
-    width: 150px;
-   
-  }
-}
-@media (max-width: 1200px) {
-  .profile .picture-resume {
-    width: 200px;
-    height: 200px;
-  }
-}
-@media (max-width: 450px) {
-  .profile .picture-resume {
-    width: 180px;
-    height: 180px;
-  }
-}
+
+
+
+
 .profile .contact-info {
   margin-top: 100px;
   font-weight: 300;
@@ -241,6 +201,23 @@ a {
     margin-top: 50px;
     margin-bottom: 50px;
   }
+  .resume-wrapper{
+        flex-wrap: wrap;
+  }
+  .picture-resume {
+    width: 100%;
+      margin-top: 50px;
+}
+.name-wrapper {
+    width: 100%;
+    text-align: center;
+}
+  .picture-resume-wrapper {   
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 }
 .profile svg {
   width: 100%;
@@ -254,7 +231,7 @@ a {
 
 .experience {
   background: #fff;
-  width: 60%;
+  width: 65%;
   float: left;
   position: relative;
   color: #333;
@@ -307,16 +284,16 @@ a {
 }
 
 .section-padding {
-  padding: 60px 60px 40px 40px;
+  padding: 50px 40px;
 }
 @media (max-width: 850px) {
   .section-padding {
-    padding: 80px 15% 40px 10%;
+    padding: 25px;
   }
 }
 @media (max-width: 450px) {
   .section-padding {
-    padding: 40px 10% 20px 5%;
+    padding: 15px;
   }
 }
 
