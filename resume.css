@@ -6,7 +6,8 @@
 }
 
 :root{
-  --prime:#fc6f5c;
+  /* --prime:#fc6f5c; */
+  --prime:#143395;
 }
 html, body {
   height: 100%;
@@ -66,7 +67,7 @@ a {
 }
 
 .profile {
-    background: #eee;
+    background: #f0f8ff;
     width: 35%;
     float: left;
 
@@ -95,44 +96,48 @@ a {
     align-items: center;
 }
 .picture-resume{
-  width: 40%;
+    width: 25%;
+    text-align: left;
 }
-.name-wrapper{
-   width: 60%;
-}
+
 .picture-resume img{
-    width: 150px;
-    height: 150px;
+    width: 100%;
     border-radius: 50%;
-    border: 10px solid var(--prime);
+    border: 1px solid #fff;
 }
 @media (max-width: 850px) {
   .profile {
     width: 100%;
   }
 }
+.name-wrapper{
+   width: 65%;
+}
 
+.name-wrapper span{
+      font-size: 22px;
+    text-align: left;
+    width: 100%;
+    float: left;
+    color: var(--prime);
+}
 .fnt_size_20{
   font-size: 20px;
 }
 .profile h1 {
-  font-size: 2.5em;
-  text-align: left;
-  font-family: "Varela Round", sans-serif;
-  /* color: #4a4e51; */
-  text-transform: uppercase;
-  line-height: normal;
+    font-size: 30px;
+    text-align: left;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: normal;
 }
-@media (max-width: 1200px) {
-  .profile h1 {
-    padding-top: 20px;
-  }
-}
+
 @media (max-width: 450px) {
   .profile h1 {
-    font-size: 1.8em;
-    padding-top: 20px;
-    text-align: center;
+        font-size: 25px;
+  }
+  .name-wrapper span {
+    font-size: 18px;
   }
 }
 .profile li {
@@ -189,19 +194,12 @@ a {
   .resume-wrapper{
         flex-wrap: wrap;
   }
-  .picture-resume {
-    width: 100%;
-      margin-top: 50px;
-}
+ 
 .name-wrapper {
     width: 100%;
     text-align: center;
 }
-  .picture-resume-wrapper {   
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+ 
 
 }
 .profile svg {
@@ -266,6 +264,7 @@ a {
 }
 .experience .experience-title {
      margin-bottom: 0px;
+     color: var(--prime);
     font-weight: 600;
 }
 
@@ -296,12 +295,12 @@ a {
   padding-right: 8%;
 }
 .section-wrapper h3.section-title {
-  color:  var(--prime);
-  text-align: left;
-  text-transform: uppercase;
-  font-size: 1.2em;
-  margin-bottom: 20px;
-  font-weight: 400;
+     color: var(--prime);
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 600;
 }
 .section-wrapper .skill-percentage {
   margin-bottom: 10px;
